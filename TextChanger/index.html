@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>텍스트 크기 변환기</title>
+</head>
+
+<style>
+
+
+
+
+</style>
+
+
+
+<body>
+
+
+<script>
+
+var e=""
+
+function change2(a) {
+    alert(a);
+
+}
+
+
+    function change(j) {
+
+            n=j;
+            e=n+"px";
+            a=e;
+        var span = document.getElementById("a1");
+        span.style.fontSize = a;
+
+
+    }
+
+    if(e==""){
+        var a='70px';
+    }
+
+        document.write("<textarea id='a1' style='width:99.5%; height:630px; font-size:" + a + "'" +
+            "placeholder='--사용법-- " + '\n' +
+            "아래쪽 크기조절 range 를 이용해서"+ '\n' + "파일의 크기를 조절하세요" + '\n' +
+            "" +
+            '\n' + "" +
+            "'></textarea>");
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+</form>
+
+
+<style>
+    table {
+
+        border: 1px solid #444444;
+    }
+</style>
+
+
+<table>
+        <th>
+            <script>
+                var a=30;
+                document.write("<h1>글자크기</h1>")
+                document.write("</th>")
+                document.write("<th>")
+                document.write("<input onchange='change(this.value)' type='range' min='10' max='130' value="+ a+"  >")
+
+
+            </script>
+        </th>
+</table>
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
